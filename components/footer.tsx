@@ -22,7 +22,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Instagram, href: "https://instagram.com/fitconmiguel", label: "Instagram" },
-  { icon: Youtube, href: "https://youtube.com/@fitconmiguel", label: "YouTube" },
+  { icon: Youtube, href: "#", label: "YouTube" },
 ]
 
 export function Footer() {
@@ -102,8 +102,9 @@ export function Footer() {
             </h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="tel:8097079174" className="hover:text-foreground transition-colors">
-                  809-707-9174
+                {/* <a href="tel:8097079174" className="hover:text-foreground transition-colors"> */}
+                <a href="#" className="hover:text-foreground transition-colors">
+                  809-505-5050
                 </a>
               </li>
               <li>

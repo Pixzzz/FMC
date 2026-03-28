@@ -237,7 +237,7 @@ export function Programs() {
               style={{ animationDelay: `${index * 0.05}s` }}
             >
               {program.popular && (
-                <div className="absolute -top-3 right-6 px-4 py-1 bg-foreground text-background text-xs font-bold rounded-full shadow-md shadow-white/10 z-10">
+                <div className="absolute right-6 px-4 py-1 bg-foreground text-background text-xs font-bold rounded-full shadow-md shadow-white/10 z-10">
                   POPULAR
                 </div>
               )}
