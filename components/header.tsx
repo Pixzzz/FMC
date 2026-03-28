@@ -39,7 +39,7 @@ export function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${
+        className={`fixed top-0 left-0 right-0 !border-0   z-50 transition-all duration-500 ease-out ${
           scrolled
             ? "liquid-glass-nav-scrolled py-2"
             : "py-3 lg:py-4"
@@ -49,9 +49,10 @@ export function Header() {
           <div className="flex items-center justify-between h-14 sm:h-16">
             {/* Logo */}
             <a href="/" className="flex items-center gap-2.5 group relative z-10">
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-white/10">
+            <img className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105" src="https://media.discordapp.net/attachments/473227383227547662/1487486287433699481/image.png?ex=69c9510f&is=69c7ff8f&hm=e883dfff2f4e68dbcd0cb99c002fd921ad18aab16e09729d17201abc182509a7&=&format=webp&quality=lossless&width=768&height=768" alt=""  />
+              {/* <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-white/10">
                 <span className="text-background font-extrabold text-sm sm:text-base font-[family-name:var(--font-heading)]">FCM</span>
-              </div>
+              </div> */}
               <span className="font-[family-name:var(--font-heading)] font-bold text-base sm:text-lg text-foreground hidden sm:block tracking-tight">
                 Fit Con Miguel
               </span>

@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Fit Con Miguel | Transforma tu vida con fitness',
   description: 'Programas de entrenamiento personalizados: Running, Natación, Burning, Kids y Empresarial. 11 años construyendo bienestar. Hazlo Como Puedas®',
-  generator: 'v0.app',
+  generator: 'FitConMiguel.app',
   icons: {
     icon: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: 'fcm.png',
         type: 'image/svg+xml',
       },
     ],
