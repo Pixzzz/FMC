@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Download } from "lucide-react"
+import img from "../public/fcm.png"
 
 const navLinks = [
   { href: "#programas", label: "Programas" },
@@ -49,7 +50,7 @@ export function Header() {
           <div className="flex items-center justify-between h-14 sm:h-16">
             {/* Logo */}
             <a href="/" className="flex items-center gap-2.5 group relative z-10">
-            <img className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105" src="https://media.discordapp.net/attachments/473227383227547662/1487486287433699481/image.png?ex=69c9510f&is=69c7ff8f&hm=e883dfff2f4e68dbcd0cb99c002fd921ad18aab16e09729d17201abc182509a7&=&format=webp&quality=lossless&width=768&height=768" alt=""  />
+            <img className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105" src={img.src} alt=""  />
               {/* <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-foreground flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-white/10">
                 <span className="text-background font-extrabold text-sm sm:text-base font-[family-name:var(--font-heading)]">FCM</span>
               </div> */}
